@@ -1,0 +1,136 @@
+#second_section > .what {
+  top: 8rem;
+}
+#second_section > .stats {
+  top: 24.7rem;
+}
+
+#second_section > .goal {
+  top: 60rem;
+}
+
+.scndsection {
+  display: flex;
+  width: 21rem;
+  padding: 0;
+  bottom: 0;
+  position: absolute;
+  left: 4.2rem;
+  height: 15rem;
+}
+
+.stats p:nth-of-type(2) {
+  left: 14rem;
+}
+.stats .sat-stats {
+  left: 3rem;
+  position: absolute;
+  top: 33px;
+  font-family: Roboto;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #848890;
+}
+
+.stats .observations {
+  font-family: Roboto;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #848890;
+}
+
+h3 {
+  font-family: sans-serif;
+  display: flex;
+  position: absolute;
+  width: 21rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 1px rgb(199, 196, 196) solid;
+}
+
+#second_section {
+  padding-block-start: 21.4rem;
+  position: relative;
+  left: 10rem;
+  height: auto;
+  width: 26rem;
+}
+#second_section p {
+  position: absolute;
+  top: 3rem;
+}
+
+#second_section > .satellites {
+  position: absolute;
+  width: 198px;
+  height: 84px;
+  left: 68px;
+  top: 66.2rem;
+  background: #EC7E5F;
+}
+#second_section > .empty_div {
+  position: absolute;
+  width: 335px;
+  height: 84px;
+  left: 68px;
+  top: 66.2rem;
+  z-index: -1;
+  border: 1px solid #848890;
+  box-sizing: border-box;
+ }
+
+ #second_section > .rotate_div {
+  position: absolute;
+  width: 116px;
+  left: 344px;
+  top: 69.8rem;
+  z-index: 1;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+ }
+
+ #second_section > .goal > p .twenty_three {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: flex-end;
+  color: #EC7E5F;
+ }
+
+ #second_section > .goal > p .april {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #848890;
+  left: 1rem;
+  position: relative;
+ }
+#second_section .foot_paragraph {
+  width: 178px;
+  left: 245px;
+  top: 71.8rem;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  text-transform: uppercase;
+
+}
+#second_section .one_month {
+  color: #848890;
+}
+#second_section .number {
+  font-family: monospace;
+}

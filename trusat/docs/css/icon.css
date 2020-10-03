@@ -1,0 +1,56 @@
+#first_table > tbody > .icon_before > th::before {
+  content: attr(data-id);
+  background-image: url("../images/icon.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+#first_table > tbody > .blue_icon_before th::before {
+  content: attr(data-id);
+  background-image: url("../images/lbue-icon.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+#first_table > tbody > .blue_icon_before th[data-id] {
+  top: 2rem;
+}
+
+#first_table > tbody > .icon_before th[data-id] {
+  top: 2rem;
+}
+
+.table_satname > tbody > tr > th::before {
+  content: "";
+  background-image: url("../images/small-icon.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.stats p:nth-of-type(1)::before {
+  content: "";
+  background-image: url("../images/vector.svg");
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+
+}

@@ -1,0 +1,39 @@
+body > header > h1 {
+  text-transform: uppercase;
+  font-family: monospace;
+  margin: 0;
+}
+body > header {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+body > header > nav > ul {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 18rem;
+  height: 23px;
+}
+body > header > nav > ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.my_profile {
+  display: inline;
+  position: absolute;
+  margin-left: 53.2rem;
+  width: 8rem;
+  letter-spacing: 0.05em;
+}
+.my_profile > a img {
+  margin: 0px 0px -7px -1px;
+}
+body > header > nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}

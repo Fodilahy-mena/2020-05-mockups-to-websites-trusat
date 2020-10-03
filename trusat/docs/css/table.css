@@ -1,0 +1,65 @@
+
+#first_section th, td {
+  border-bottom: 1px solid rgb(57, 105, 160);
+  padding: 5px 10px;
+}
+#first_section > #first_table .table_header th {
+  border-bottom: 1px solid white;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.table_satname {
+  padding-left: 4rem;
+  padding-top: 13rem;
+  text-align: left;
+}
+#first_table {
+  position: absolute;
+  height: 860px;
+  width: 879px;
+  padding-left: 3.5rem;
+  padding-left: 4rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+#first_table > tbody tr {
+  counter-increment: clause;
+}
+#first_table tr::before {
+  content: counter(clause);
+  position: absolute;
+}
+/*Table in the second section are meant to be here*/
+
+#second_section th, td {
+  border-bottom: 1px solid rgb(57, 105, 160);
+  padding: 5px 10px;
+}
+#second_section thead > tr th {
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+}
+
+#second_section > .what > p a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #EC7E5F;
+
+}
+
+#second-section > table:nth-of-type(4) > tbody > tr > td b {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  color: #EC7E5F;
+}
+
